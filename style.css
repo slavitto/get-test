@@ -1,0 +1,8 @@
+body, h1, h2, h3, div, p, span, a {
+	font-family: Helvetica, Arial, "sans-serif";
+}
+.login {
+		text-align: right;
+		margin: 2%;
+		color: #CCC;
+}

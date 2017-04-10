@@ -1,0 +1,17 @@
+.menu {
+	width: 420px;
+	margin: 2% auto;
+}
+.menu a {
+	padding: 10px 20px;
+	background: linear-gradient(#EEE, #DDD);
+	font-size: 14px;
+	text-decoration: none;
+	color: #555;
+}
+.menu a:hover {
+	background: #EEE;
+}
+.menu a:active {
+	background: #FFF;
+}
