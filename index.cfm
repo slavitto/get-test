@@ -1,4 +1,4 @@
-<link href="/GET-TEST/style.css" rel="stylesheet" type="text/css">
+<link href="/GET-TEST/style.less" rel="stylesheet/less" type="text/css">
 <cfif IsDefined("SESSION.id")>
 	<cfif isDefined("profile_changed")>
 		<script>

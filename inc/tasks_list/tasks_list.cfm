@@ -1,4 +1,4 @@
-<link href="/GET-TEST/inc/tasks_list/tasks_list.css" rel="stylesheet" type="text/css">
+<link href="/GET-TEST/inc/tasks_list/tasks_list.less" rel="stylesheet/less" type="text/css">
 <script src="/GET-TEST/inc/tasks_list/tasks_list.js">
 </script>
 <cfif IsDefined("SESSION.id")>

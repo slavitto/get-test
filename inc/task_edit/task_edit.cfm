@@ -1,4 +1,4 @@
-<link href="/GET-TEST/inc/task_edit/task_edit.css" rel="stylesheet" type="text/css">
+<link href="/GET-TEST/inc/task_edit/task_edit.less" rel="stylesheet/less" type="text/css">
 <script src="/GET-TEST/inc/task_edit/task_edit.js">
 
 </script>

@@ -6,8 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				if(password_fields[1].value !== password_fields[0].value) {
 					document.querySelector('.password_match').innerText = 'Passwords doesn`t match!';
 					document.querySelector('input[name="submit"]').setAttribute('disabled', 'true');
-				}
-				if(password_fields[1].value == password_fields[0].value) {
+				} else {
 					document.querySelector('.password_match').innerText = '';
 					document.querySelector('input[name="submit"]').removeAttribute('disabled');
 				}

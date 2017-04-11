@@ -1,4 +1,4 @@
-<link href="/GET-TEST/inc/login/login.css" rel="stylesheet" type="text/css">
+<link href="/GET-TEST/inc/login/login.less" rel="stylesheet/less" type="text/css">
 <script src="/GET-TEST/inc/login/login.js">
 
 </script>
