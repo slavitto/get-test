@@ -94,18 +94,30 @@
 			<option>Change request</option>
 			</select>
 				<div class="task_edit_label">
-					Status
+					Status:
+					<span class="task_status_value">
+						#tasks.status#
+					</span>
 				</div>
-				<select name="status" data-value="#tasks.status#" required #disabled#>
-			<cfif tasks.status IS "" || tasks.status IS "New">
-			<option>New</option>
-			</cfif>
-			<cfif tasks.status IS NOT "Closed">
-			<option>Open</option>
-			<option>Resolved</option>
-			</cfif>
-			<option>Closed</option>
-			</select>
+				<div class="task_edit_status_buttons">
+					<cfif tasks.status IS "" || tasks.status IS "New">
+						<button>
+							New
+						</button>
+					</cfif>
+					<cfif tasks.status IS NOT "Closed">
+						<button>
+							Open
+						</button>
+						<button>
+							Resolved
+						</button>
+					</cfif>
+					<button>
+						Closed
+					</button>
+					<input type="hidden" name="status" value="#tasks.status#">
+				</div>
 				<input type="hidden" name="new_task" value="#new_task#">
 				</input>
 				<input type="submit" name="submit" value="Submit">

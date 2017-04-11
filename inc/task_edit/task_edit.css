@@ -2,6 +2,10 @@ input, textarea, select {
 	display: block;
 	margin: 5px;
 }
+input[type="submit"]  {
+	margin: 20px 5px;
+	padding: 10px 30px;
+}
 .task_form {
 	width: 420px;
 	margin: 2% auto;
@@ -11,14 +15,19 @@ input, textarea, select {
 	display: inline-block;
 }
 .task_edit_label {
-		margin: 10px 0 0 5px;
-		color: #555;
+	margin: 10px 0 0 5px;
+	color: #555;
+}
+.task_edit_status_buttons {
+	margin: 5px;
+}
+.task_status_value {
+	color: #111;
 }
 .task_edit_item {
-		margin: 0 0 0 5px;
-		color: #111;
+	margin: 0 0 0 5px;
+	color: #111;
 }
-
 .task_history_table {
 	width: 600px;
 	margin: 2% auto;
