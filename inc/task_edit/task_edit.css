@@ -1,12 +1,20 @@
-.task_form {
-	width: 420px;
-	margin: 2% auto;
-}
 input, textarea, select {
 	display: block;
 	margin: 5px;
 }
-.label {
-		margin: 0 0 0 5px;
+.task_form {
+	width: 420px;
+	margin: 2% auto;
+}
+.task_edit_inline_block {
+	width: 200px;
+	display: inline-block;
+}
+.task_edit_label {
+		margin: 10px 0 0 5px;
 		color: #555;
+}
+.task_edit_item {
+		margin: 0 0 0 5px;
+		color: #111;
 }

@@ -10,6 +10,5 @@
 	<cfset SESSION.id = login.id>
 	<cflocation url="/GET-TEST/" addtoken="no">
 <cfelse>
-	<cfset bad_login="true">
 	<cflocation url="/GET-TEST/?bad_login" addtoken="no">
 </cfif>
