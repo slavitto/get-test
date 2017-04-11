@@ -3,7 +3,7 @@
 
 </script>
 <cfif IsDefined("SESSION.id")>
-	<cfinclude template="/GET-TEST/inc/menu/menu.cfm">
+	<cfinclude template="/GET-TEST/inc/header/header.cfm">
 	<cfquery name="login" datasource="gettest">
 		SELECT login, first_name, last_name, password
 		FROM users
@@ -25,8 +25,9 @@
 				<div class="login_edit_label">New Password (two times):</div>
 				<input type="password" name="password" class="input">
 				</input>
-				<input type="text" name="password_repeat" class="input">
+				<input type="password" name="password_repeat" class="input">
 				</input>
+				<div class="password_match error"></div>
 				<input type="hidden" name="change_profile" value="true">
 				<input type="hidden" name="old_password" value="#LOGIN.password#">
 				</input>

@@ -2,7 +2,7 @@
 <script src="/GET-TEST/inc/tasks_list/tasks_list.js">
 </script>
 <cfif IsDefined("SESSION.id")>
-	<cfinclude template="/GET-TEST/inc/menu/menu.cfm">
+	<cfinclude template="/GET-TEST/inc/header/header.cfm">
 	<cfoutput>
 		<cfif isDefined("task_created")>
 			<script>
@@ -19,6 +19,7 @@
 				Tasks List
 			</h3>
 			<cfparam name="order_by" default="th.date_time">
+			<cfparam name="sort" default="DESC">
 			<cfquery name="tasks" datasource="gettest">
 				SELECT t.id as id, DATE_FORMAT(t.date_time, '%d/%m/%Y %h:%i') as date_time, 
 				DATE_FORMAT(th.date_time, '%d/%m/%Y %h:%i') as updated, short_desc, status, urgency, 
@@ -27,7 +28,7 @@
 				INNER JOIN users u on u.id = t.user_id
 				INNER JOIN tasks_history th on th.task_id = t.id
 				GROUP BY t.id
-				ORDER BY #order_by# DESC
+				ORDER BY #order_by# #sort#
 				LIMIT 0,10;
 			</cfquery>
 			<div class="tasks_table">
@@ -37,50 +38,74 @@
 					</div>
 					<div class="tasks_table_cell">
 						ID
-						<a href="?order_by=t.id">
+						<a href="?order_by=t.id&sort=DESC">
 							&##9660;
+						</a>
+						<a href="?order_by=t.id&sort=ASC">
+							&##9651;
 						</a>
 					</div>
 					<div class="tasks_table_cell">
 						Created
-						<a href="?order_by=t.date_time">
+						<a href="?order_by=date_time&sort=DESC">
 							&##9660;
+						</a>
+						<a href="?order_by=date_time&sort=ASC">
+							&##9651;
 						</a>
 					</div>
 					<div class="tasks_table_cell">
 						Updated
-						<a href="?order_by=th.date_time">
+						<a href="?order_by=th.date_time&sort=DESC">
 							&##9660;
+						</a>
+						<a href="?order_by=th.date_time&sort=ASC">
+							&##9651;
 						</a>
 					</div>
 					<div class="tasks_table_cell">
 						Description
-						<a href="?order_by=short_desc">
+						<a href="?order_by=short_desc&sort=DESC">
 							&##9660;
+						</a>
+						<a href="?order_by=short_desc&sort=ASC">
+							&##9651;
 						</a>
 					</div>
 					<div class="tasks_table_cell">
 						Author
-						<a href="?order_by=u.id">
+						<a href="?order_by=u.id&sort=DESC">
 							&##9660;
+						</a>
+						<a href="?order_by=u.id&sort=ASC">
+							&##9651;
 						</a>
 					</div>
 					<div class="tasks_table_cell">
 						Urgency
-						<a href="?order_by=urgency">
+						<a href="?order_by=urgency&sort=DESC">
 							&##9660;
+						</a>
+						<a href="?order_by=urgency&sort=ASC">
+							&##9651;
 						</a>
 					</div>
 					<div class="tasks_table_cell">
 						Criticality
-						<a href="?order_by=criticality">
+						<a href="?order_by=criticality&sort=DESC">
 							&##9660;
+						</a>
+						<a href="?order_by=criticality&sort=ASC">
+							&##9651;
 						</a>
 					</div>
 					<div class="tasks_table_cell">
 						Status
-						<a href="?order_by=status">
+						<a href="?order_by=status&sort=DESC">
 							&##9660;
+						</a>
+						<a href="?order_by=status&sort=ASC">
+							&##9651;
 						</a>
 					</div>
 				</div>

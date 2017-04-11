@@ -3,7 +3,7 @@
 
 </script>
 <cfif IsDefined("SESSION.id")>
-	<cfinclude template="/GET-TEST/inc/menu/menu.cfm">
+	<cfinclude template="/GET-TEST/inc/header/header.cfm">
 	<cfoutput>
 		<div class="task_form">
 			<cfif IsDefined("task_edit_id")>

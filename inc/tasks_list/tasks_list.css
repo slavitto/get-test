@@ -23,6 +23,7 @@ body {
 	font-size: 12px;
 }
 .tasks_table_cell a {
+	margin: 0 -2px 2px 0;
 	font-size: 10px;
 	color: #000;
 	text-decoration: none;
@@ -31,7 +32,7 @@ body {
 	width: 20px;
 }
 .tasks_table_cell:nth-child(2) {
-	width: 30px;
+	width: 40px;
 }
 .tasks_table_cell:nth-child(3) {
 	width: 120px;
@@ -43,7 +44,7 @@ body {
 	width: 210px;
 }
 .tasks_table_cell:nth-child(6) {
-	width: 150px;
+	width: 140px;
 }
 .tasks_table_cell:nth-child(7) {
 	width: 120px;
@@ -52,5 +53,5 @@ body {
 	width: 120px;
 }
 .tasks_table_cell:nth-child(9) {
-	width: 50px;
+	width: 60px;
 }

@@ -4,6 +4,9 @@ input {
 input[type="text"] {
 	color: #999;
 }
+input[type="submit"] {
+	padding: 3px 7px;
+}
 input[type="text"]:focus {
 	color: #000;
 }
@@ -11,12 +14,12 @@ input[type="text"]:focus {
 	margin: 10% auto;
 	padding: 20px;
 	width: 160px;
-	height: 70px;
+	height: 80px;
 	background: #CCC;
 }
 .login_edit {
 	margin: 2% auto;
-	height: 280px;
+	height: 300px;
 }
 .login_edit_label {
 		font-size: 80%;
@@ -26,4 +29,8 @@ input[type="text"]:focus {
 .error {
 	margin: 5px;
 	color: red;
+}
+.password_match {
+	font-size: 12px;
+	min-height: 14px;
 }

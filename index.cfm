@@ -5,7 +5,7 @@
 			alert('Profile changed successfully!')
 		</script>
 	</cfif>
-	<cfinclude template="/GET-TEST/inc/menu/menu.cfm">
+	<cfinclude template="/GET-TEST/inc/header/header.cfm">
 <cfelse>
 	<cfinclude template="/GET-TEST/inc/login/login.cfm">
 </cfif>
