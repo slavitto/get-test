@@ -1,1 +1,5 @@
-<cfouput>Request Error<cfoutput>
+<cfouput>
+	<div>Request Error</div>
+<a href="/GET-TEST/">Main page</a>
+<cfoutput>
+	

@@ -1,1 +1,4 @@
-<cfouput>Validation Error<cfoutput>
+<cfouput>
+<div>Validation Error</div>
+<a href="/GET-TEST/">Main page</a>
+<cfoutput>
