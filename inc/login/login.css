@@ -14,6 +14,16 @@ input[type="text"]:focus {
 	height: 70px;
 	background: #CCC;
 }
+.login_edit {
+	margin: 2% auto;
+	height: 280px;
+}
+.login_edit_label {
+		font-size: 80%;
+		margin: 10px 0 0 5px;
+		color: #555;
+}
 .error {
+	margin: 5px;
 	color: red;
 }

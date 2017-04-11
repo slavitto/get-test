@@ -18,3 +18,34 @@ input, textarea, select {
 		margin: 0 0 0 5px;
 		color: #111;
 }
+
+.task_history_table {
+	width: 600px;
+	margin: 2% auto;
+}
+.task_history_table_row_header {
+	background: #CCC;
+}
+.task_history_table_row:nth-child(odd) {
+	background: #EEE;
+}
+.task_history_table_cell {
+	display: inline-block;
+	padding: 3px;
+	font-size: 12px;
+}
+.task_history_table_cell:nth-child(1) {
+	width: 20px;
+}
+.task_history_table_cell:nth-child(2) {
+	width: 120px;
+}
+.task_history_table_cell:nth-child(3) {
+	width: 50px;
+}
+.task_history_table_cell:nth-child(4) {
+	width: 210px;
+}
+.task_history_table_cell:nth-child(5) {
+	width: 150px;
+}
