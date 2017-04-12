@@ -2,7 +2,7 @@
 This application is a prototype of bug tracking system for software testing. The app is developed using ColdFusion/CFML and MySQL database and ready to deploy with ColdFusion server. 
 
 ## Installation  
-### Files:
+#### Files:
 <pre>
 db_working.sql          SQL dump of working DB for features testing  
 db_create.sql           for clear installation  
@@ -13,8 +13,7 @@ Application.cfm         application-level settings and functions
 requesterr.cmf,  		
 validationerr.cfm       error handling files  
 </pre>
-   
-## Test user accounts:
+#### Test user accounts:
 <pre>
 login:        slavitto   
               johndoe  
