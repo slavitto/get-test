@@ -1,5 +1,5 @@
 # get-test
-This application is a prototype of bug tracking system for software testing. The app is developed using ColdFusion/CFML and MySQL database and ready to deploy with ColdFusion server. All features listed in the task specification are working, but some important things still have to be done - see "Features" section.
+This application is a prototype of bug tracking system for software testing. The app is developed using ColdFusion/CFML and MySQL database and ready to deploy with the ColdFusion server. All features listed in the task specification are working, but some important things still have to be done - see "Features" section.
 
 ## Installation  
 ### Requirements
