@@ -2,8 +2,8 @@
 This application is a prototype of bug tracking system for software testing. The app is developed using ColdFusion/CFML and MySQL database and ready to deploy with the ColdFusion server. All features listed in the task specification are working, but some important things still have to be done - see "Features" section.
 
 ## Requirements
-ColdFusion Server  
-MySQL Server
+> ColdFusion Server  
+> MySQL Server
 
 ## Installation  
 #### Files:
@@ -33,7 +33,7 @@ Passwords:    gettest
 - [x] Task adding
 - [x] Task editing  
 - [x] Task list            
-- [ ] Task list pagination *critical!*
+- [ ] Task list pagination
 - [x] Task history           
 
 Feature       		         |	Description
@@ -43,3 +43,4 @@ Feature       		         |	Description
 **Task Adding**             | Adding tasks of any status with the date/time, author and id auto assigment
 **Task Editing**            | Task edit feature made according to tracking process specifications. So if the task is already closed, user can not re-open it. And if the tasks are already "open", it can not again get the status of a "new"
 **Task List**               | Tasks list prototype limited by 10 last entries, with the ascending and descenting sorting feature and field long value limitation
+**Task History**            | Task history saves all task changes. Every User ID who change a task store in the history, task author ID is unchangeаble
