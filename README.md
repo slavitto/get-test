@@ -35,6 +35,8 @@ Passwords:    gettest
 - [ ] Task list pagination *critical!*
 - [x] Task history           
 
-Feature       		   |		Description
----------------------|-------------------------------------------------------------
-
+Feature       		    |	Description
+----------------------|-------------------------------------------------------------
+Authorization         | The authorization function is made using the built-in HTTP-session support mechanism sessions and password encryption
+Profile editing       | Users can change first name, last name and password
+Task adding           | Adding tasks of any status with the date/time and id auto assigment
