@@ -3,8 +3,8 @@ This application is a prototype of bug tracking system for software testing. The
 
 ## Installation  
 ### Requirements
-ColdFusion Server  
-MySQL Server
+> ColdFusion Server  
+> MySQL Server
 #### Files:
 <pre>
 db_working.sql          SQL dump of working DB for features testing  
