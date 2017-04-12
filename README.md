@@ -37,6 +37,7 @@ Passwords:    gettest
 
 Feature       		    |	Description
 ----------------------|-------------------------------------------------------------
-Authorization         | The authorization function is made using the built-in HTTP-session support mechanism sessions and password encryption
-Profile editing       | Users can change first name, last name and password
-Task adding           | Adding tasks of any status with the date/time and id auto assigment
+**Authorization**         | The authorization function is made using the built-in HTTP-session support mechanism sessions and password encryption
+**Profile editing**       | Users can change first name, last name and password
+**Task adding**           | Adding tasks of any status with the date/time, author and id auto assigment
+**Task editing**          | Task edit feature made according to tracking process specifications. So if the task is already closed, user can not re-open it. And if the tasks are already "open", it can not again get the status of a "new" 
