@@ -43,7 +43,7 @@ Feature       		         |	Description
 ---------------------------|-------------------------------------------------------------
 **Authorization**          | The authorization function is made using the ColdFusion built-in HTTP-session support and password encryption
 **Profile Editing**         | Users can change first name, last name and password
-**Task Adding**             | Adding tasks of any status with the date/time, author and id auto assigment
+**Task Adding**             | Adding tasks of any status with the date/time, and author ID auto assigment
 **Task Editing**            | Task edit feature made according to tracking process specifications. So if the task is already closed, user can not re-open it. And if the tasks are already "open", it can not again get the status of a "new"
 **Task List**               | Tasks list prototype limited by 10 last entries, with the ascending and descenting sorting feature and field long value limitation
 **Task History**            | Task history saves all task changes. Everyone who change a task is saved in the task history, task author ID is unchangeаble. 
